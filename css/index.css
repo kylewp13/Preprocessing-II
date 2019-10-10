@@ -171,7 +171,7 @@ img {
 #mainNav {
   width: 100%;
   border-bottom: 2px dashed silver;
-  padding: 40px 0 30px 0;
+  padding: 40px 0 20px 0;
 }
 #mainNav #navDiv {
   width: 800px;
@@ -196,6 +196,17 @@ img {
   color: #212529;
   font-size: 1.6rem;
   padding: 20px;
+}
+.homeHeader {
+  width: 800px;
+  margin: 0 auto;
+  border-bottom: 2px dashed silver;
+}
+.homeHeader img {
+  margin-bottom: 20px;
+}
+.homeHeader p {
+  margin-bottom: 10px;
 }
 .home .content-section {
   margin: 30px 0;
