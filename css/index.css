@@ -254,3 +254,12 @@ img {
   width: 30%;
   margin-bottom: 30px;
 }
+.home .content-pick .btn {
+  width: 100%;
+  max-width: 200px;
+  background-color: #17A2B8;
+  padding: 10px 0;
+  font-size: 2rem;
+  text-align: center;
+  border-radius: 10px;
+}
