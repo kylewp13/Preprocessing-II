@@ -203,6 +203,9 @@ img {
   margin: 0 0 0 50px;
   color: black;
 }
+#mainNav #navDiv nav a:hover {
+  text-transform: uppercase;
+}
 @media (max-width: 500px) {
   #mainNav #navDiv nav a {
     margin: 0;
