@@ -1,1 +1,43 @@
 // Navigation Styles here
+@import "mixins";
+
+#mainNav {
+  width: 100%;
+  border-bottom: 2px dashed silver;
+  padding: 40px 0 20px 0;
+
+  #navDiv {
+    width: 800px;
+    margin: 0 auto;
+    .flex(space-between, center);
+
+    @media @mobile {
+      width: 100%;
+      flex-direction: column;
+      h1 {
+        margin-bottom: 10px;
+      }
+    }
+
+    nav {
+      @media @mobile {
+        width: 100%;
+        .flex(space-evenly, center);
+      }
+      a{
+        text-decoration: none;
+        font-size: 1.5rem;
+        margin: 0 0 0 50px;
+        color: black;
+        
+        &:hover{
+          .animation();
+        }
+
+        @media @mobile {
+          margin: 0;
+        }
+      }//close of a
+    }//close of nav
+  }//close of navDiv
+}//close of #mainNav
